@@ -1,0 +1,76 @@
+/* style.css */
+
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
+}
+
+/* News container styles */
+.news-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* News card styles */
+.news-card {
+    width: 300px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 10px;
+    box-shadow: 0 2px 8px rgba(99, 99, 99, 0.2);
+    overflow: hidden;
+}
+
+.news-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px 5px 0 0;
+}
+
+.news-card h3 {
+    font-size: 18px;
+    margin: 10px;
+}
+
+.news-card p {
+    font-size: 14px;
+    margin: 10px;
+    opacity: 0.7;
+}
+
+.news-card a {
+    display: block;
+    text-align: center;
+    margin: 10px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.news-card a:hover {
+    text-decoration: underline;
+}
